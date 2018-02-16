@@ -20,8 +20,8 @@ var an = "";
 var s = [];
 for (var i = 0; i < que.length; i++) {
 	var an = prompt(que[i]);
+	an = an.trim();
 	 s[i] = an}
-
 for (var t = 0; t < s.length; t++) {
 	if (s[t] == otvet[t]) { point++}
 }
